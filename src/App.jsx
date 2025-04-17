@@ -152,10 +152,10 @@ export default function App() {
               </p>
               <div className="flex gap-4">
                 <button
-                  onClick={() => setActiveSection("portfolio")}
+                  onClick={() => setActiveSection("project")}
                   className="bg-indigo-600 text-white px-6 py-3 rounded hover:bg-indigo-700 transition"
                 >
-                  view in LinkdIN
+                  Contact
                 </button>
                 <button
                   onClick={() => setActiveSection("about")}
@@ -199,7 +199,6 @@ export default function App() {
           <li><button onClick={() => setActiveSection("projects")}>Projects</button></li>
           <li><button onClick={() => setActiveSection("skills")}>Skills</button></li>
         </ul>
-        <button className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition">Hire Me</button>
       </nav>
 
       {/* Main Section with Transitions */}
